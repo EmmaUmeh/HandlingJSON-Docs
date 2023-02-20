@@ -66,7 +66,7 @@ Let start by running this in our terminal.
 
         npx create-react-app reactapp
 
-This builds a new folder for our react-app.
+
 
 2. Navigate to the folder
         
@@ -76,6 +76,10 @@ This builds a new folder for our react-app.
 3. Run
 
         npm start
+
+Taddaa!! our app is running
+
+![ReactApp](/ScreenshotReact.png "ReactApp")
 
 
  i hope it helps.
