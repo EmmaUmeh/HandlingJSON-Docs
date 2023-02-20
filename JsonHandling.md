@@ -1,11 +1,10 @@
 ![JsonImage](/jsonImage.jpg)
 
-# Handling Json Parse and Json Stringify in Javascript
+# How To Implement Json Parse and Json Stringify in Javascript
 
-In this today's article,
-i will share with you how we can handle json parse and stringify in javascript.
+When working with large data units, there is every tendency there must be a logical data arrangement in the ecosystem.Making the streams of data to be parsed from one logic to another via the domination of data binding.
+In this today's article, i will share with you how we can handle json parse and stringify in javascript.
 
-- Let get started.
 
 ## what is JSON?
 JSON(Javascript Object Notation) - JSON is a text-based format mostly(.json files) used for storing and transferring data.JSON is a lightweight, text-based, language-independent data interchange format that is used to store and exchange data between different systems. It is one of the most popular data formats used in web applications and APIs.
