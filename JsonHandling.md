@@ -36,7 +36,8 @@ It is easy to read and write, making it a great choice for data interchange betw
         // let list an object of laptops and prices.
         {"name" : "MacBook", "price" "$20,000", "Dell", "price" "$20,000"}
 
-For more about JSON objects and Array visit here👉: <https://www.programiz.com/javascript/json>
+For more about
+JSON objects and array visit here 👉<https://www.programiz.com/javascript/json>
 
 ### The Advantages/Disadvantages of JSON
 
