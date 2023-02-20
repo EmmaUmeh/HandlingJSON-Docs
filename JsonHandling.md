@@ -17,7 +17,7 @@ JSON(Javascript Object Notation) - JSON is a text-based format mostly(.json file
                     "Currency" :"USD"
                 }
 
-### Why use JSON?
+## Why use JSON?
 In web application, storing of data is occasionally done using the json format which stores data in a readable format.
 It is easy to read and write, making it a great choice for data interchange between applications running on different platforms. JSON is also supported by most modern programming languages and is commonly used to send data over the web. JSON is often used as an alternative to XML (Extensible Markup Language)  due to its smaller size and faster parsing.
 
@@ -40,6 +40,38 @@ For more about
 JSON objects and array visit here 👉<https://www.programiz.com/javascript/json>
 
 ### The Advantages/Disadvantages of JSON
+
+
+## What is Json Parse?
+
+## What is Json Stringify?
+
+
+# Prerequisites
+
+Before we begin, these are technologies you should be familiar with and have installed on your local machine in order to follow up these guide:
+
+> - Reactjs Knowledge
+> - Javascript Knowledge
+> - Nodejs v18+ already installed
+
+# About Our Sample Application
+
+For our sample application, we will create a simple list app of employees and their salaries every month. For more find the source code <>
+
+# Create a Sample React app
+Let start by running this in our terminal.
+
+1. Open your terminal and run
+        npx create-react-app reactapp
+This builds a new folder for our react-app.
+
+2. Navigate to the folder
+    cd reactapp
+
+3. Run
+    npm start
+
 
 
  i hope it helps.
