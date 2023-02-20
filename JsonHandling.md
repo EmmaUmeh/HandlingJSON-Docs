@@ -1,6 +1,6 @@
 ![JsonImage](/jsonImage.jpg)
 
-# How To Implement Json Parse and Json Stringify in Javascript
+# Handling Json Parse and Json Stringify in Javascript
 
 When working with large data units, there is every tendency there must be a logical data arrangement in the ecosystem.Making the streams of data to be parsed from one logic to another via the domination of data binding.
 In this today's article, i will share with you how we can handle json parse and stringify in javascript.
@@ -33,9 +33,10 @@ It is easy to read and write, making it a great choice for data interchange betw
         
         JSON Objects - are enclosed in a curly brackets {}.
 
-        // let list an objects of laptops and prices.
+        // let list an object of laptops and prices.
         {"name" : "MacBook", "price" "$20,000", "Dell", "price" "$20,000"}
 
+For more about JSON objects and Array visit here👉: <https://www.programiz.com/javascript/json>
 
 ### The Advantages/Disadvantages of JSON
 
