@@ -26,15 +26,15 @@ It is easy to read and write, making it a great choice for data interchange betw
 
         JSON Array - are enclosed in an array [].
 
-        // let list an array of Laptops.
-        ["MacBook", "Lenovo", "Dell"]
+        // let list an array of laptops and prices.
+        ["MacBook", "price" "$20,000", "Dell","price" "$40,000",]
 
 
 
         
         JSON Objects - are enclosed in a curly brackets {}.
 
-        // let list an array of Laptops.
-        {"MacBook", "Lenovo", "Dell"}
+        // let list an objects of laptops and prices.
+        {"name" : "MacBook", "price" "$20,000", "Dell", "price" "$20,000"}
 
 
