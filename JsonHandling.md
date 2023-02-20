@@ -63,16 +63,19 @@ For our sample application, we will create a simple list app of employees and th
 Let start by running this in our terminal.
 
 1. Open your terminal and run
-                npx create-react-app reactapp
-                
+
+        npx create-react-app reactapp
+
 This builds a new folder for our react-app.
 
 2. Navigate to the folder
-                cd reactapp
+        
+        cd reactapp
+
 
 3. Run
-            npm start
 
+        npm start
 
 
  i hope it helps.
