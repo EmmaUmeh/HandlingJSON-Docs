@@ -19,4 +19,22 @@ JSON(Javascript Object Notation) - JSON is a text-based format mostly(.json file
                 }
 
 ### Why use JSON?
-In web application, storing of data is occasionally done using the json format which stores data in a readable format.It is easy to read and write , making it a great choice for data interchange between applications running on different platforms. JSON is also supported by most modern programming languages and is commonly used to send data over the web. JSON is often used as an alternative to XML due to its smaller size and faster parsing.
+In web application, storing of data is occasionally done using the json format which stores data in a readable format.
+It is easy to read and write, making it a great choice for data interchange between applications running on different platforms. JSON is also supported by most modern programming languages and is commonly used to send data over the web. JSON is often used as an alternative to XML (Extensible Markup Language)  due to its smaller size and faster parsing.
+
+> - Note: JSON are always enclosed with arrays or objects(literals) when storing data.
+
+        JSON Array - are enclosed in an array [].
+
+        // let list an array of Laptops.
+        ["MacBook", "Lenovo", "Dell"]
+
+
+
+        
+        JSON Objects - are enclosed in a curly brackets {}.
+
+        // let list an array of Laptops.
+        {"MacBook", "Lenovo", "Dell"}
+
+
