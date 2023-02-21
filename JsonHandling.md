@@ -1,9 +1,9 @@
 ![JsonImage](/jsonImage.jpg)
 
-# Handling Json Parse and Json Stringify in Javascript
+# Handling Json in React
 
 When working with large data units, there is every tendency there must be a logical data arrangement in the ecosystem.Making the streams of data to be parsed from one logic to another via the domination of data binding.
-In this today's article, i will share with you how we can handle json parse and stringify in javascript.
+In this today's article, i will share with you how we can handle json in react.
 
 
 ## what is JSON?
@@ -42,11 +42,6 @@ JSON objects and array visit here 👉<https://www.programiz.com/javascript/json
 ### The Advantages/Disadvantages of JSON
 
 
-## What is Json Parse?
-
-## What is Json Stringify?
-
-
 # Prerequisites
 
 Before we begin, these are technologies you should be familiar with and have installed on your local machine in order to follow up these guide:
@@ -77,9 +72,97 @@ Let start by running this in our terminal.
 
         npm start
 
-Taddaa!! our app is running
 
 ![ReactApp](/ScreenshotReact.png "ReactApp")
+
+Our App is now running locally..
+
+4. Create a New folder and inside the folder create a Employees.json file
+
+![WorkerRule](/WorkerRule.png "WorkerRule")
+ 
+This where our Json files would be stored. 
+
+5. Insert the code you see below
+
+                                [
+                                {
+                                        "id" : 0,
+                                        "name" : "Emmanuel Umeh",
+                                        "Occupation" : "Senior Software Engineer",
+                                        "Salary" : "900,000",
+                                        "currency" : "USD"
+                                },
+
+                                {
+                                        "id":1,
+                                        "name": "Rose Dublin",
+                                        "Occupation" : "Lead Software Engineer",
+                                        "Salary" : "900,000",
+                                        "currency" : "USD"
+                                },
+
+
+                                {
+                                        "id":2,
+                                        "name": "Chinenye Amaka",
+                                        "Occupation" : "Product Designer",
+                                        "Salary" : "500,000",
+                                        "currency" : "USD"
+                                },
+
+                                {
+                                        "id":3,
+                                        "name": "Mac Donald",
+                                        "Occupation" : "Mobile App Developer",
+                                        "Salary" : "900,000",
+                                        "currency" : "USD"
+                                }
+                                ]
+
+
+6. Create a Table.js file and Import the json file.
+
+                                import lists from  "../src/Workers/Employees.json"
+                                const Table = () => {
+                                const JsonData = lists.map((JsonDatas) => {
+                                        return(
+                                        <tr>
+                                                <td>{JsonDatas.id}</td>
+                                                <td>{JsonDatas.name}</td>
+                                                <td>{JsonDatas.Occupation}</td>
+                                                <td>{JsonDatas.Salary}{JsonDatas.currency}</td>
+                                        </tr>
+                                        )
+                                })
+                                return(
+                                        <>
+                                        <table width="100%">
+                                        <thead>
+                                                <tr>
+                                                <th>Sr.Number</th>
+                                                <th>Name</th>
+                                                <th>Jobs</th>
+                                                <th>Salary</th>
+                                                </tr>
+                                        </thead>
+                                        
+                                
+                                <tbody>
+                                {JsonData}
+                                </tbody>
+
+                                </table>
+                                        </>
+                                )
+                                }
+
+                                export default Table;
+
+
+We are have list of employees in our React App.
+
+![TableImg](/TableReact.png "TableImg")
 
 
  i hope it helps.
