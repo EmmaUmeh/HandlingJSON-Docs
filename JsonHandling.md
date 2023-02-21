@@ -77,11 +77,11 @@ Let start by running this in our terminal.
 
 Our App is now running locally..
 
-4. Create a New folder and inside the folder create a Employees.json file
+4. Create a New folder and inside the folder create a (Employees.json) file. Our Json files would be stored. 
 
-![WorkerRule](/WorkerRule.png "WorkerRule")
+![WorkerRule](/WorkerScr.png "WorkerRule")
  
-This where our Json files would be stored. 
+
 
 5. Insert the code you see below
 
