@@ -39,8 +39,6 @@ It is easy to read and write, making it a great choice for data interchange betw
 For more about
 JSON objects and array visit here 👉<https://www.programiz.com/javascript/json>
 
-### The Advantages/Disadvantages of JSON
-
 
 # Prerequisites
 
@@ -77,13 +75,13 @@ Let start by running this in our terminal.
 
 Our App is now running locally..
 
-4. Create a New folder and inside the folder create a (Employees.json) file. Our Json files would be stored. 
+4. Create a New folder and inside the folder create a (Employees.json) file. Our Json files would be stored there. 
 
 ![WorkerRule](/Group.png "WorkerRule")
  
 
 
-5. Insert the code you see below
+5. Insert the code you see below, inside the Employees.json file.
 
                                 [
                                 {
@@ -124,6 +122,8 @@ Our App is now running locally..
 6. Create a Table.js file and Import the json file.
 
                                 import lists from  "../src/Workers/Employees.json"
+
+
                                 const Table = () => {
                                 const JsonData = lists.map((JsonDatas) => {
                                         return(
@@ -160,12 +160,11 @@ Our App is now running locally..
                                 export default Table;
 
 
-We are have list of employees in our React App.
+7. Check your browser, we now have list of employees in our React App.
 
 ![TableImg](/TableReact.png "TableImg")
 
 
- i hope it helps.
-
  Thanks for reading❤.
+ 
  Follow my twitter page for more <https://twitter.com/ElonLostSon>
