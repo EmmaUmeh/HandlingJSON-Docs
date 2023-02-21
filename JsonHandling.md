@@ -79,7 +79,7 @@ Our App is now running locally..
 
 4. Create a New folder and inside the folder create a (Employees.json) file. Our Json files would be stored. 
 
-![WorkerRule](/WorkerScr.png "WorkerRule")
+![WorkerRule](/Group.png "WorkerRule")
  
 
 
